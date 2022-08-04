@@ -1,0 +1,101 @@
+body {
+    margin: 0;
+    background: url("../images/fon3.jpg"); 
+    background-repeat: no-repeat;
+    background-position: top;
+    font-family: 'Assistant', sans-serif;
+    background-color: black;
+    
+   
+   }
+img {
+    min-height: 350px;
+    min-width: 390px;
+    height: auto;
+    width: 100%;
+    object-fit: cover;
+    }
+
+/*.container0 {
+    min-height: 350px;
+    min-width: 390px;
+    margin-top: 73;
+    margin-left: 11.1%;
+    height: 78%;
+    width: 29.9%;
+    opacity:0; 
+    transition: 1s; 
+    animation: show 3s 1; 
+    animation-fill-mode: forwards; /*border: 5px solid blue;*/
+
+.container0 {
+    margin-top: 73;
+    margin-left: 11.1%;
+    height: 472px;
+    width: 390px;
+    opacity:0; 
+    transition: 1s; 
+    animation: show 2s 1; 
+    animation-fill-mode: forwards; /*border: 5px solid blue;*/
+    }
+
+/*.container1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-top: 5.8%;
+    margin-left: 51%;
+    
+    min-height: 250px;
+    font-size: 40px; 
+    width: 45%;
+    height: 78%;
+    color: cornsilk;
+    letter-spacing: 10;
+    border: 5px solid black;*/
+
+.container1 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-top: 73;
+    min-width: 447px;
+    min-height: 350px;
+    font-size: 40px; 
+    width: 45%;
+    height: 472;
+    color: cornsilk;
+    letter-spacing: 10;
+    /*opacity:0; 
+    transition: 1s; 
+    animation: show 3s 1; 
+    animation-fill-mode: forwards;*/
+    /*border: 5px solid black;*/
+    }
+
+@keyframes show{
+0%{
+opacity:0;
+}
+100% {
+opacity:1;
+}}
+
+.container1 h1 {
+    line-height: 0em;}
+
+/*@media screen (min-width: 450) and (min-height: 950) */
+
+.container1 p {
+    padding-left: 118;
+    line-height: 0em;
+    }
+
+.container2{
+    font-size: 2vw; 
+    letter-spacing: .06em;
+    color: white;
+    margin-left: 11.1%;
+    margin-right: 11.1%;
+    min-width: 300px;
+    }
